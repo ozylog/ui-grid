@@ -1,0 +1,30 @@
+{
+  "name": "@ozylog/ui-grid",
+  "version": "0.0.0",
+  "description": "UI Grid",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "boilerplate build:react",
+    "build": "boilerplate build:react",
+    "watch": "boilerplate watch:react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozylog/ui-grid.git"
+  },
+  "keywords": [
+    "ozylog",
+    "ui",
+    "grid",
+    "react"
+  ],
+  "author": "Cahya Pribadi <cahya@monelog.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ozylog/ui-grid/issues"
+  },
+  "homepage": "https://github.com/ozylog/ui-grid#readme",
+  "devDependencies": {
+    "@ozylog/boilerplate": "^0.3.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@ozylog/ui-grid",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "UI Grid",
   "main": "./dist/index.js",
   "scripts": {

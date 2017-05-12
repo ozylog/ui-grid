@@ -1,9 +1,9 @@
 'use strict';
 
 import React, {Component} from 'react';
-import './../styles/gridContainer.css';
+import './../styles/container.css';
 
-export default class GridContainer extends Component {
+export default class Container extends Component {
   constructor(props) {
     super(props);
   }

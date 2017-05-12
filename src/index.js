@@ -1,5 +1,5 @@
 'use strict';
 
-export {default as GridCol} from './components/GridCol';
-export {default as GridContainer} from './components/GridContainer';
-export {default as GridRow} from './components/GridRow';
+export {default as Column} from './components/Column';
+export {default as Container} from './components/Container';
+export {default as Row} from './components/Row';

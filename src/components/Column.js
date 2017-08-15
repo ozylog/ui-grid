@@ -74,7 +74,7 @@ export default class Column extends Component {
     ];
 
     for (const attr in this.props) {
-      if (allowedClassName.indexOf(attr) > -1) classNameArr.push(`column-${attr}-${this.props[attr]}`);
+      if (allowedClassName.indexOf(attr) > -1 && classes[`column-${attr}-${this.props[attr]}`]) classNameArr.push(classes[`column-${attr}-${this.props[attr]}`]);
     }
 
     const className = classNameArr.join(' ');

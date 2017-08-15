@@ -1,6 +1,6 @@
 {
   "name": "@ozylog/ui-grid",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "React UI Grid with react-jss",
   "main": "./dist/index.js",
   "scripts": {

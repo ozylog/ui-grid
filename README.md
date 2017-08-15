@@ -1,5 +1,5 @@
 # @ozylog/ui-grid
-React UI Grid
+React UI Grid with react-jss
 
 [![Travis](https://img.shields.io/travis/ozylog/ui-grid.svg)](https://travis-ci.org/ozylog/ui-grid) [![npm](https://img.shields.io/npm/dt/@ozylog/ui-grid.svg)](https://www.npmjs.com/package/@ozylog/ui-grid)
 

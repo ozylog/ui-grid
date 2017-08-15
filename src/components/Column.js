@@ -35,7 +35,7 @@ for (const type of ['xs', 'sm', 'md', 'lg']) {
   }
 
   for (let i = 1; i <= 12; i++) {
-    const value = `${i / 12}%`;
+    const value = `${i / 12 * 100}%`;
 
     section[`column-${type}-${i}`] = {
       width: value

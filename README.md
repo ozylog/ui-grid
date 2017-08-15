@@ -24,8 +24,8 @@ npm install @ozylog/ui-grid --save
 ```
 <Column />
 ```
-
 See [Bootstrap 3 Grid System](http://getbootstrap.com/css/#grid) for more details. Bootstrap Col Class format: `col-[attr]-[attrValue]`. This is how to implement it in this react component: `<Column [attr]=[attrValue] />`. e.g. `<Column md='4' mdOffset='4' />`
+attr: [ 'xs', 'xsOffset', 'xsPull', 'xsPush', 'sm', 'smOffset', 'smPull', 'smPush', 'md', 'mdOffset', 'mdPull', 'mdPush', 'lg', 'lgOffset', 'lgPull', 'lgPush' ]
 
 ## Usage Example
 ```javascript
@@ -40,7 +40,7 @@ export default class TestContainer extends Component {
       <div className='Test'>
         <Container>
           <Row>
-            <Column md='4' mdOffset='4'>
+            <Column md='4' mdOffset='4' xs='2' xsPush='1' lgPull='2'>
               Hello World!
             </Column>
           </Row>

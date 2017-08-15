@@ -9,8 +9,7 @@ const styles = {
     minHeight: '1px',
     paddingLeft: '15px',
     paddingRight: '15px',
-    position: 'relative',
-    float: 'left'
+    position: 'relative'
   }
 };
 
@@ -38,7 +37,8 @@ for (const type of ['xs', 'sm', 'md', 'lg']) {
     const value = `${i / 12 * 100}%`;
 
     section[`column-${type}-${i}`] = {
-      width: value
+      width: value,
+      float: 'left'
     };
     section[`column-${type}Offset-${i}`] = {
       marginLeft: value
